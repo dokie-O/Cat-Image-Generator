@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252525;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#cat-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+#fetch-cat-btn {
+    padding: 10px 20px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-weight: 550;
+    background: transparent;
+    color: white;
+}
+
+#fetch-cat-btn:hover {
+    color: #252525;
+    background: white;
+}
