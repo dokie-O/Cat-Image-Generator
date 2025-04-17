@@ -16,6 +16,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         const img = document.createElement("img");
         img.src = catImgUrl;
         img.alt = "Random Cat";
-        catGallery.appendChild(img);
+        catGallery.prepend(img);
     });
 });
